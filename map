@@ -1,0 +1,35 @@
+Bank #0 (HOME):
+  SECTION: $0040-$0040 ($0001 bytes)
+  SECTION: $0048-$0048 ($0001 bytes)
+  SECTION: $0050-$0050 ($0001 bytes)
+  SECTION: $0058-$0058 ($0001 bytes)
+  SECTION: $0060-$0060 ($0001 bytes)
+  SECTION: $0100-$09FB ($08FC bytes)
+           $0952 = begin
+           $09EB = StopLCD
+           $0150 = TileData
+           $09C0 = Bees
+           $09CD = BeesEnd
+           $09B3 = Title
+           $09C0 = TitleEnd
+           $09CD = Challenge
+           $09D9 = ChallengeEnd
+           $09D9 = Challenge2
+           $09EB = Challenge2End
+  SECTION: $0061-$00B6 ($0056 bytes)
+           $007B = mem_CopyMono
+           $008B = mem_SetVRAM
+           $00A1 = mem_CopyVRAM
+           $006D = mem_Copy
+           $0061 = mem_Set
+    SLACK: $36A9 bytes
+
+BSS:
+  EMPTY
+
+VRAM:
+  EMPTY
+
+HRAM:
+  EMPTY
+

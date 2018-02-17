@@ -1,0 +1,13 @@
+A simple port of rgbds to Linux
+-------------------------------
+Michael Hope <michaelh@earthling.net>, July 24 2000.
+
+The included executables were built using the rgbds 1.10e sources along with
+the attached patch.  Built on a Debian glibc 2.1 system.
+
+See:
+http://www.otakunozoku.com/rgbds/
+http://gbdk.sourceforge.net/
+http://www.devrs.com/
+
+-- Michael Hope
