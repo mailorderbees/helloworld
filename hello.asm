@@ -1,24 +1,3 @@
-; Hello World
-; John Harrison
-; With lots o' code borrowed from all over the place
-; some tutorial-like comments stolen from "hello world" by GABY
-
-; VERSIONS
-; 1.01 02/09/07
-;   fixed typos and clarified a few things in the comments
-; 1.00 02/02/07
-
-; Most GameBoy assemblers (and most other assembly
-; language assemblers) use a semicolon to indicate
-; that everything following it on a particular line
-; is to be ignored and be treated purely as comments
-; rather than code.
-
-; gbhw.inc contains the
-; 'Hardware Defines' for our program. This has
-; address location labels for all of the GameBoy
-; Hardware I/O registers. We can 'insert' this file
-; into the present EXAMPLE1.ASM file by using the
 ; assembler INCLUDE command:
 
 INCLUDE "gbhw.inc" ; standard hardware definitions from devrs.com
